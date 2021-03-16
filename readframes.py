@@ -28,5 +28,8 @@ plt.title('Good morning vs Good slime')
 plt.xlabel('Tiempo (segundos')
 plt.ylabel('Amplitud')
 
-plt.plot(time_gm, steve, label='steve')
-plt.plot(time_AN, slime, label='slime', alpha=0.5)
+plt.plot(time_gm, ondaconvertidaGM, label='steve')
+plt.plot(time_AN, ondaconvertidaAN, label='slime', alpha=0.5)
+
+plt.legend()
+plt.show()
